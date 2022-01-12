@@ -15,6 +15,13 @@
     - pipe2.c
     - pipe3.c
     - echo_storeserv.c
-- I/O复用
+- 12.I/O复用
     - select.c
     - echo_selectserv.c
+- 13.多种I/O函数
+    - oob_recv.c    使用紧急模式传输数据
+    - oob_send.c    
+    - peek_recv.c   检查输入缓冲
+    - peek_send.c
+    - writev.c      把分散到多个缓冲中的数据整合到一起进行传输
+    - readv.c
