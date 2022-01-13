@@ -25,3 +25,6 @@
     - peek_send.c
     - writev.c      把分散到多个缓冲中的数据整合到一起进行传输
     - readv.c
+- 14.多播与广播
+    - news_sender.c     向AAA组广播文件中保存的新闻信息
+    - news_receiver.c   接收传递到AAA组的新闻信息
