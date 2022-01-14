@@ -28,3 +28,8 @@
 - 14.多播与广播
     - news_sender.c     向AAA组广播文件中保存的新闻信息
     - news_receiver.c   接收传递到AAA组的新闻信息
+- 15.套接字和标准I/O
+    - desto.c   将文件描述符转换为FILE结构体指针
+    - todes.c   将FILE结构体指针转换为文件描述符
+    - echo_stdserv.c    回声服务器端的标准I/O函数实现
+    - echo_stdclnt.c    回声客户端的标准I/O函数实现
