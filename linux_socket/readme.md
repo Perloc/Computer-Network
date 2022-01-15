@@ -33,3 +33,7 @@
     - todes.c   将FILE结构体指针转换为文件描述符
     - echo_stdserv.c    回声服务器端的标准I/O函数实现
     - echo_stdclnt.c    回声客户端的标准I/O函数实现
+- 16.关于I/O流分离的其他内容
+    - sep_serv.c    使用FILE指针分离I/O，直接调用fclose半关闭不生效，会将套接字完全关闭
+    - sep_clnt.c
+    - sep_serv2.c   使用FILE指针分离I/O，复制文件描述符后进行半关闭
