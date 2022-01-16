@@ -37,3 +37,5 @@
     - sep_serv.c    使用FILE指针分离I/O，直接调用fclose半关闭不生效，会将套接字完全关闭
     - sep_clnt.c
     - sep_serv2.c   使用FILE指针分离I/O，复制文件描述符后进行半关闭
+- 17.优于select的epoll
+    - echo_epollserv.c  基于epoll复用的回声客户端实现
