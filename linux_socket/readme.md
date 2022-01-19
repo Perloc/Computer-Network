@@ -39,3 +39,5 @@
     - sep_serv2.c   使用FILE指针分离I/O，复制文件描述符后进行半关闭
 - 17.优于select的epoll
     - echo_epollserv.c  基于epoll复用的回声客户端实现
+    - echo_EPLTserv.c   条件触发
+    - echo_EPETserv.c   边缘触发
